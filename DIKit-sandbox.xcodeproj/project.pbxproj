@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24170FB51F7AB1B00056B752 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24170FB41F7AB1B00056B752 /* AppDelegate.swift */; };
+		24170FB71F7AB1B00056B752 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24170FB61F7AB1B00056B752 /* ViewController.swift */; };
+		24170FBA1F7AB1B00056B752 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24170FB81F7AB1B00056B752 /* Main.storyboard */; };
+		24170FBC1F7AB1B00056B752 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24170FBB1F7AB1B00056B752 /* Assets.xcassets */; };
+		24170FBF1F7AB1B00056B752 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24170FBD1F7AB1B00056B752 /* LaunchScreen.storyboard */; };
+		24170FC91F7AB3560056B752 /* DIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24170FC81F7AB3560056B752 /* DIKit.framework */; };
+		24170FCD1F7ABCF60056B752 /* DIKitGenerated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24170FCC1F7AB4BC0056B752 /* DIKitGenerated.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24170FB11F7AB1B00056B752 /* DIKit-sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DIKit-sandbox.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24170FB41F7AB1B00056B752 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24170FB61F7AB1B00056B752 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24170FB91F7AB1B00056B752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24170FBB1F7AB1B00056B752 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24170FBE1F7AB1B00056B752 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24170FC01F7AB1B00056B752 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24170FC81F7AB3560056B752 /* DIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DIKit.framework; path = Carthage/Build/iOS/DIKit.framework; sourceTree = "<group>"; };
+		24170FCC1F7AB4BC0056B752 /* DIKitGenerated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIKitGenerated.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24170FAE1F7AB1B00056B752 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24170FC91F7AB3560056B752 /* DIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24170FA81F7AB1B00056B752 = {
+			isa = PBXGroup;
+			children = (
+				24170FCB1F7AB4670056B752 /* CodeGen */,
+				24170FB31F7AB1B00056B752 /* DIKit-sandbox */,
+				24170FB21F7AB1B00056B752 /* Products */,
+				24170FC71F7AB3550056B752 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		24170FB21F7AB1B00056B752 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24170FB11F7AB1B00056B752 /* DIKit-sandbox.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24170FB31F7AB1B00056B752 /* DIKit-sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				24170FB41F7AB1B00056B752 /* AppDelegate.swift */,
+				24170FB61F7AB1B00056B752 /* ViewController.swift */,
+				24170FB81F7AB1B00056B752 /* Main.storyboard */,
+				24170FBB1F7AB1B00056B752 /* Assets.xcassets */,
+				24170FBD1F7AB1B00056B752 /* LaunchScreen.storyboard */,
+				24170FC01F7AB1B00056B752 /* Info.plist */,
+			);
+			path = "DIKit-sandbox";
+			sourceTree = "<group>";
+		};
+		24170FC71F7AB3550056B752 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24170FC81F7AB3560056B752 /* DIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24170FCB1F7AB4670056B752 /* CodeGen */ = {
+			isa = PBXGroup;
+			children = (
+				24170FCC1F7AB4BC0056B752 /* DIKitGenerated.swift */,
+			);
+			path = CodeGen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24170FB01F7AB1B00056B752 /* DIKit-sandbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24170FC31F7AB1B00056B752 /* Build configuration list for PBXNativeTarget "DIKit-sandbox" */;
+			buildPhases = (
+				24170FCA1F7AB41A0056B752 /* Run Script - DIKit */,
+				24170FAD1F7AB1B00056B752 /* Sources */,
+				24170FAE1F7AB1B00056B752 /* Frameworks */,
+				24170FAF1F7AB1B00056B752 /* Resources */,
+				24170FC61F7AB2400056B752 /* Run Script - Carthage */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DIKit-sandbox";
+			productName = "DIKit-sandbox";
+			productReference = 24170FB11F7AB1B00056B752 /* DIKit-sandbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24170FA91F7AB1B00056B752 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = tattn;
+				TargetAttributes = {
+					24170FB01F7AB1B00056B752 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 24170FAC1F7AB1B00056B752 /* Build configuration list for PBXProject "DIKit-sandbox" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24170FA81F7AB1B00056B752;
+			productRefGroup = 24170FB21F7AB1B00056B752 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24170FB01F7AB1B00056B752 /* DIKit-sandbox */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24170FAF1F7AB1B00056B752 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24170FBF1F7AB1B00056B752 /* LaunchScreen.storyboard in Resources */,
+				24170FBC1F7AB1B00056B752 /* Assets.xcassets in Resources */,
+				24170FBA1F7AB1B00056B752 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24170FC61F7AB2400056B752 /* Run Script - Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/DIKit.framework",
+			);
+			name = "Run Script - Carthage";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		24170FCA1F7AB41A0056B752 /* Run Script - DIKit */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script - DIKit";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "dikitgen \"${SRCROOT}/DIKit-sandbox\" > \"${SRCROOT}/CodeGen/DIKitGenerated.swift\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24170FAD1F7AB1B00056B752 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24170FB71F7AB1B00056B752 /* ViewController.swift in Sources */,
+				24170FCD1F7ABCF60056B752 /* DIKitGenerated.swift in Sources */,
+				24170FB51F7AB1B00056B752 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		24170FB81F7AB1B00056B752 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24170FB91F7AB1B00056B752 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24170FBD1F7AB1B00056B752 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24170FBE1F7AB1B00056B752 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24170FC11F7AB1B00056B752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24170FC21F7AB1B00056B752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24170FC41F7AB1B00056B752 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "DIKit-sandbox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.tattn.DIKit-sandbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24170FC51F7AB1B00056B752 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = "DIKit-sandbox/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.tattn.DIKit-sandbox";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24170FAC1F7AB1B00056B752 /* Build configuration list for PBXProject "DIKit-sandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24170FC11F7AB1B00056B752 /* Debug */,
+				24170FC21F7AB1B00056B752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24170FC31F7AB1B00056B752 /* Build configuration list for PBXNativeTarget "DIKit-sandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24170FC41F7AB1B00056B752 /* Debug */,
+				24170FC51F7AB1B00056B752 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24170FA91F7AB1B00056B752 /* Project object */;
+}
