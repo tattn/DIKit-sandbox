@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  App.swift
 //  DIKit-sandbox
 //
 //  Created by Tatsuya Tanaka on 20170927.
@@ -28,6 +28,15 @@ protocol AppResolver: Resolver {
 
 protocol AppComponent: AppResolver /* , FooResolver, BarResolver */ {}
 
+// MARK: - App
+
+struct App {
+    let appComponent: AppComponent
+
+    func setup() {
+        let vc = appComponent.resolveViewController() // 😆
+    }
+}
 
 // MARK: - Production
 
@@ -39,11 +48,9 @@ struct ProductionAppComponent: AppComponent {
     }
 }
 
-struct App {
-    let appComponent: AppComponent = ProductionAppComponent()
-
-    init() {
-        let vc = appComponent.resolveViewController() // 😆
+struct Production {
+    func main() {
+        let app = App(appComponent: ProductionAppComponent())
     }
 }
 
@@ -57,10 +64,8 @@ struct MockAppComponent: AppComponent {
     }
 }
 
-struct MockApp {
-    let appComponent: AppComponent = MockAppComponent()
-
-    init() {
-        let vc = appComponent.resolveViewController() // 😆
+struct Test {
+    func main() {
+        let app = App(appComponent: MockAppComponent())
     }
 }
