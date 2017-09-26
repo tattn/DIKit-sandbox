@@ -9,6 +9,8 @@
 import UIKit
 import DIKit
 
+// MARK: - DIKit
+
 final class ViewController: Injectable {
     struct Dependency {
         let apiClient: APIClient
